@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+
+
+<style>
+   body
+   {
+        background-image: linear-gradient(to left, #33ccff, #ff99cc);
+    }
+</style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+
+<style>
+	{
+		margin: 0;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+
+	.topnav {
+		overflow: hidden;
+		background-color: #333;
+	}
+
+		.topnav a {
+			float: right;
+			color: yellow;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+			font-size: 17px;
+		}
+
+			.topnav a:hover {
+				background-color: #ddd;
+				color: green;
+			}
+
+			.topnav a.active {
+				background-color: #04AA6D;
+				color: white;
+			}
+</style>
+</head>
+
+		<!-- Navigation -->
+		<nav>
+			<div class="topnav">
+				
+				<ul clas="nav">
+					<a href="About Us.htm">About Us</a>
+					<a href="Learn.html">Learn</a>
+					<a href="Main.htm">Explore</a>
+					<h2 style="color: #33ccff;
+        font-family: Algerian;
+        font-size: 200%;">
+						Children's Museum
+					</h2>
+				</ul>
+			</div>
+		</nav>
+
+		<!-- Slide Show -->
+		<section>
+			<img class="mySlides" src="https://epcmuseum.org/wp-content/uploads/2019/02/EPCM-LOGO-REV2.png"
+				 alt="libriary" width="1333" height="600">
+			<img class="mySlides" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1uog9edumN2vnwHRgDF1kyZLSQjkxEhiBKQ&usqp=CAU"
+				 alt="libriary" width="1333" height="600">
+			<img class="mySlides" src="https://www.demcointeriors.com/wp-content/uploads/2016/02/Kenosha_Public_Library_Kids-Entry-overall-009-450x300.jpg"
+				 alt="libriary" width="1333" height="600">
+		</section>
+
+		<!-- Discription -->
+		<p style="color:#00000;
+		margin-left:25px;
+		margin-top:100px;
+		margin-bottom:100px;
+		font-family:Times New Roman;
+		font-size:150%;">
+			A children’s museum is defined as a nonprofit educational and cultural institution committed to
+			serving the needs and interests of children by providing exhibits and programs that stimulate
+			curiosity and motivate learning. Children’s museums are unique community institutions where…
+			<br>
+			<br> * Children are valued citizens with the right to developmentally-appropriate and high-quality learning experiences.
+			<br> * Play is learning, and it is critical to the healthy social, emotional, and cognitive development of children.
+			<br> * Family, culture, environment, and society are recognized as critical factors in all children’s lives to effectively serve them.
+			<br> * Pursuing equity and inclusion is a best practice that reflects a commitment to serving all children and families and advancing the growth of our field.<br>
+			<br> There are more than 300 children’s museums in the world serving millions of families, but every institution is unique. Children’s museums are known for being joyful spaces for learning and
+			play, and much more than just places to visit. In fact, all children’s museums—regardless of size —function as local destinations (featuring designed spaces such as exhibits), educational
+			laboratories (via programming), and act as community resources and advocates for children. <br>
+			<br> Every children’s museum implements these roles differently. They may be at the forefront of
+			critical dialogues around children and families in their communities, leading coalitions, and changing policy and practice. They may also play supporting roles, leveraging their physical
+			locations and relationships to advance partners’ efforts. .
+		</p>
+
+		<style>
+			.fa {
+				padding: 20px;
+				font-size: 30px;
+				width: 50px;
+				text-align: center;
+				text-decoration: none;
+				margin: 5px 2px;
+			}
+
+				.fa:hover {
+					opacity: 0.7;
+				}
+
+			.fa-facebook {
+				background: #3B5998;
+				color: white;
+			}
+
+			.fa-twitter {
+				background: #55ACEE;
+				color: white;
+			}
+
+			.fa-google {
+				background: #dd4b39;
+				color: white;
+			}
+
+			.fa-linkedin {
+				background: #007bb5;
+				color: white;
+			}
+
+			.fa-youtube {
+				background: #bb0000;
+				color: white;
+			}
+
+			.fa-instagram {
+				background: #125688;
+				color: white;
+			}
+
+			.fa-pinterest {
+				background: #cb2027;
+				color: white;
+			}
+
+			.fa-snapchat-ghost {
+				background: #fffc00;
+				color: white;
+				text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+			}
+
+			.fa-skype {
+				background: #00aff0;
+				color: white;
+			}
+
+			.fa-android {
+				background: #a4c639;
+				color: white;
+			}
+
+			.fa-dribbble {
+				background: #ea4c89;
+				color: white;
+			}
+
+			.fa-vimeo {
+				background: #45bbff;
+				color: white;
+			}
+
+			.fa-tumblr {
+				background: #2c4762;
+				color: white;
+			}
+		</style>
+
+		<script>
+			// Automatic Slideshow - change image every 3 seconds
+			var myIndex = 0;
+			carousel();
+
+			function carousel() {
+				var i;
+				var x = document.getElementsByClassName("mySlides");
+				for (i = 0; i < x.length; i++) {
+					x[i].style.display = "none";
+				}
+				myIndex++;
+				if (myIndex > x.length) { myIndex = 1 }
+				x[myIndex - 1].style.display = "block";
+				setTimeout(carousel, 3000);
+			}
+		</script>
+
+		<!-- Add font awesome icons -->
+		<a href="https://web.facebook.com/" class="fa fa-facebook"></a>
+		<a href="https://twitter.com/?lang=en" class="fa fa-twitter"></a>
+		<a href="https://mail.google.com/" class="fa fa-google"></a>
+		<a href="https://ph.linkedin.com/" class="fa fa-linkedin"></a>
+		<a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+		<a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+		<a href="https://www.pinterest.ph/" class="fa fa-pinterest"></a>
+		<a href="https://www.snapshot.com/" class="fa fa-snapchat-ghost"></a>
+		<a href="https://www.skype.com/" class="fa fa-skype"></a>
+		<a href="https://www.andriod.com/" class="fa fa-android"></a>
+		<a href="https://www.dribble.com/" class="fa fa-dribbble"></a>
+		<a href="https://www.vimeo.com/" class="fa fa-vimeo"></a>
+		<a href="https://www.tumblr.com/" class="fa fa-tumblr"></a>
+
+	</body>
+</html>
